@@ -240,7 +240,7 @@ header{
 /*footer starts*/
 
 .footer{
-	margin-top: 150px;
+	margin-top: 140px;
 	background-color: #f0f0f0;
 }
 
@@ -258,9 +258,9 @@ header{
 	display: inline-block;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	text-decoration: none;
 	margin: 0px 50px;
 	color: #626262;
-	text-decoration: none;
 	font-weight: 700;
 }
 .social{
@@ -277,19 +277,18 @@ header{
 	text-decoration: none;
 }
 .social ul li span{
-	display: inline-block;
-	padding-top: 26px;
 	margin: 0px 20px;
+	display: inline-block;
 	color: #626262;
+	padding-top: 25px;
 	text-decoration: none;
 	font-weight: 700;
 }
 .social ul li a img{
+	float: right;
+	margin-left: 25px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	float: right;
-	margin-left: 20px;
-
 }
 
 /*footer ends*/
